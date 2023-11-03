@@ -1,11 +1,12 @@
 *** Settings ***
-Resource                        ../Resources/common.robot
+Resource                        common.robot
 Suite Setup                     Setup Browser
 Suite Teardown                  End suite
 
 
 *** Test Cases ***
 Create Account Growmore
+    [Documentation]             changesdoneincopado
     [Tags]                      Account                     New Account
     Appstate                    Home
     LaunchApp                   Sales
