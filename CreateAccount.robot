@@ -6,7 +6,7 @@ Suite Teardown                  End suite
 
 *** Test Cases ***
 Create Account Growmore
-    [Documentation]             changesdoneincopado
+    [Documentation]             changesdoneingithub
     [Tags]                      Account                     New Account
     Appstate                    Home
     LaunchApp                   Sales
